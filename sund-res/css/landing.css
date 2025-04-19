@@ -11,8 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092")
-    no-repeat center center/cover;
+  background: url("./img/Foto\ Ramen.jpg") no-repeat center center/cover;
   color: rgb(250, 243, 243);
   position: relative;
 }
@@ -48,7 +47,7 @@ body {
   gap: 10px;
 }
 .logo {
-  height: 70px;
+  height: 60px;
   width: 60px;
   border-radius: 50%;
   object-fit: cover;
