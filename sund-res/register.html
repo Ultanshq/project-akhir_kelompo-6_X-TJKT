@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrasi-Sund Resto</title>
+    <link rel="stylesheet" href="./css/regis.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="navbar">
+      <div class="backnavbar">
+        <img src="./img/logo.jpg" alt="Sund Resto Logo" class="logo" />
+        <h1>Sund Resto</h1>
+      </div>
+      <div class="nav-links">
+        <a href="login.html">Login</a>
+      </div>
+    </div>
+    <div class="regis-box">
+      <h2>Buat Akun Anda</h2>
+      <form id="RegisForm">
+        <label for="Username">Silahkan Isi Username Anda</label>
+        <input type="username" id="username" placeholder="Username" required />
+        <label for="No-Telp">Silahkan Isi Nomer Telepon Anda</label>
+        <input
+          type="No-Telp"
+          id="No-Telp"
+          placeholder="08xx-xxxx-xxxx"
+          required
+        />
+        <label for="Gmail">Silahkan Isi Gmail Anda</label>
+        <input type="Gmail" id="Gmail" placeholder="xxxx@gmail.com" required />
+        <label for="password">Silahkan Isi Password Anda</label>
+        <input type "password" id="password" placeholder="Terdiri 8 Huruf"
+        required />
+        <button type="submit">Buat</button>
+      </form>
+    </div>
+  </body>
+</html>
